@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+    <RelativeLayout 
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+    
+        <EditText
+	        android:id="@+id/firstName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/firstname" 
+	        android:inputType="text" >
+        </EditText>
+        
+        <EditText
+	        android:id="@+id/lastName"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/lastname" 
+	        android:inputType="text"
+	        android:layout_toRightOf="@+id/firstName" >
+    	</EditText>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+        <EditText
+	        android:id="@+id/emailUserName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/emailUserName" 
+	        android:inputType="textEmailAddress" >
+    	</EditText>
+    </RelativeLayout>
+
+	
+    <RelativeLayout 
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+    
+        <EditText
+	        android:id="@+id/createPassword"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/createPassword" 
+	        android:inputType="textPassword" >
+        </EditText>
+        
+        <EditText
+	        android:id="@+id/confirmPassword"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:hint="@string/confirmPassword" 
+	        android:inputType="textPassword"
+	        android:layout_toRightOf="@+id/createPassword" >
+    	</EditText>
+        
+    </RelativeLayout>
+    
+    <RelativeLayout
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+        <EditText
+	        android:id="@+id/phoneNumber"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/phoneNumber" 
+	        android:inputType="phone" >
+    	</EditText>
+    </RelativeLayout>
+    
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="#000000" />
+    
+    <RelativeLayout
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+        <EditText
+	        android:id="@+id/paymentCardName"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/paymentCardName" 
+	        android:inputType="text" >
+    	</EditText>
+    </RelativeLayout>
+    
+    <RelativeLayout
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+        <EditText
+	        android:id="@+id/paymentCardNumber"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/paymentCardNumber" 
+	        android:inputType="number" >
+    	</EditText>
+    </RelativeLayout>
+    
+    <RelativeLayout
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+        <EditText
+	        android:id="@+id/paymentCardExpirationDate"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/paymentCardExpirationDate" 
+	        android:inputType="date" >
+    	</EditText>
+    </RelativeLayout>
+    
+    <RelativeLayout
+    android:orientation="horizontal" 
+    android:layout_height="wrap_content" 
+    android:layout_width="fill_parent">
+    <Button
+        android:id="@+id/registrationSave"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/registrationSave" />
+    </RelativeLayout>
+    
+</LinearLayout>

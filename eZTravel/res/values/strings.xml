@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eZTravel</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="planTrip">Plan a Trip</string>
+    <string name="profile">Profile</string>
+    <string name="savedTrips">Saved Trips</string>
+    <string name="recentTrips">Recent Trips</string>
+    <string name="aboutUs">About Us</string>
+    <string name="firstname">Enter First Name</string>
+    <string name="lastname">Enter Last Name</string>
+    <string name="emailUserName">Enter Email/UserName</string>
+    <string name="createPassword">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="phoneNumber">Enter Phone Number</string>
+    <string name="paymentCardName">Enter Name on Card</string>
+    <string name="paymentCardNumber">Enter Card Number</string>
+    <string name="paymentCardExpirationDate">Enter Expiration Date</string>
+    <string name="registrationSave">Submit</string>
+    
+    
+
+</resources>
